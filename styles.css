@@ -1256,7 +1256,7 @@ footer{
     /* Le spacer sous la navbar fixe doit grandir en conséquence
        pour ne pas cacher le contenu qui suit */
     #inv-space {
-        height: 164px;
+        height: 120px;
     }
 
     /* --- HERO : deux colonnes -> une seule colonne empilée --- */
@@ -1283,26 +1283,27 @@ footer{
         margin-left: auto;
         margin-right: auto;
         padding: 8px;
+        width: 364px;
     }
 
     .hero-annonce p{
         color: var(--vert-vif);
         text-align: center;
-        margin-left: 16px;
+        margin-left: 20px;
     }
 
     @keyframes dot{
     0%{
         opacity: 25%;
-        font-size: 0.36rem
+        font-size: 0.72rem
      }
     50%{
         opacity: 100%;
-        font-size: 0.42rem
+        font-size: 0.84rem
      }
     100%{
         opacity: 25%;
-        font-size: 0.36rem
+        font-size: 0.72rem
      }
     }
 
