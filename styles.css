@@ -1282,15 +1282,29 @@ footer{
     .hero-annonce{
         margin-left: auto;
         margin-right: auto;
-        padding: 20px;
+        padding: 8px;
     }
 
     .hero-annonce p{
         color: var(--vert-vif);
         text-align: center;
-        margin-left: 8px;
+        margin-left: 16px;
     }
 
+    @keyframes dot{
+    0%{
+        opacity: 25%;
+        font-size: 0.36rem
+     }
+    50%{
+        opacity: 100%;
+        font-size: 0.42rem
+     }
+    100%{
+        opacity: 25%;
+        font-size: 0.36rem
+     }
+    }
 
     .hero-text p {
         font-size: 0.9rem;
