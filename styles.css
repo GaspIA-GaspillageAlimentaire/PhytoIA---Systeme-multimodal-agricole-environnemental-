@@ -1289,12 +1289,18 @@ footer{
         width: 364px;
     }   
 
-    .hero-annonce p{
+   .hero-annonce p{
         color: var(--vert-vif);
         text-align: center;
         margin-left: 20px;
-        margin-top: auto;
-        margin-bottom: auto;
+    }
+
+    .hero-annonce-text{
+        border: 2px solid red;
+    }
+
+    .cercle-animated{
+        border: 2px solid blue;
     }
 
     @keyframes dot{
